@@ -134,21 +134,34 @@
 .right-content {
     display: grid;
     padding: 20px 20px;
+    gap: 20px;
 }
 .announcement {
-
+    background-color: white;
+    display: grid;
+    padding: 30px;
+    border-radius: 10px;
 }
+
 .announcement-content {
   background-color: white;  
-  height: 120px;
+  border-bottom: 1px solid rgb(183, 182, 182);
+  height: 100px;
   font-size: 0.8em;
-  padding: 20px;
+}
+
+.trending {
+    display: grid;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .trending-content {
     display: grid;
-    grid-template-columns: 50px 100px;
-    font-size: 0.7em;
+    grid-template-columns: 50px 200px;
+    font-size: 0.9em;
 }
 
 .main-content h2+h2 {
